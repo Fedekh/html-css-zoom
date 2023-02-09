@@ -6,10 +6,101 @@
 }
 
 /* CONTEINER */
+/* COMMON */
+/* LAYOUT */
 
-.conteiner {
+img {
+    height: 150px;    
+    
+}
+
+main.wrapper {
     height: 100vh;
     width: 100%;
     background-color: black;
+    color: white;
 }
 
+
+/* ICON VAR */
+:root {
+    --microphone: <i class="fa-solid fa-microphone"></i>;
+    --microphone-slash: <i class="fa-solid fa-microphone-slash"></i>;
+    --video: <i class="fa-solid fa-video"></i> ;
+    --invite: <i class="fa-solid fa-user-plus"></i>;
+    --add-friend: <i class="fa-solid fa-user-group"></i>;
+    --angle-up: <i class="fa-solid fa-angle-up"></i>;
+    --chart-bar: <i class="fa-solid fa-chart-bar"></i>;
+    --share-screen: <i class="fa-solid fa-share-from-square"></i>;
+    --comment: <i class="fa-solid fa-comment"></i>;
+    --record: <i class="fa-solid fa-record-vinyl"></i>;
+    --table: <i class="fa-solid fa-table-cells-large"></i>;
+    --more: <i class="fa-solid fa-ellipsis"></i>;
+}
+
+.a {
+    transform: ;
+}
+
+
+/* ICON COLOUR DEFAULT */
+
+i {
+    color: white;
+}
+
+
+
+/* MAIN SECTION PHOTO LAYOUT */
+
+/* CARD SECTION */
+.card {
+    /* debug */
+    border: 1px white solid;
+    height: 90%;
+    padding: 40px 30px 10px;
+    margin: 0 auto;
+    
+}
+
+/* DIV IMG FATHER IMG+SET */
+.img {
+    position: relative;   
+    height: 150px;
+    
+}
+
+.name, .icon {
+    /* display: none; */
+}
+
+/* MICROPHONE + PINCOPALLO */
+.set {
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* FOOTER SECTION WITH COMAND */
+
+footer {
+    /* debug */
+    border: 1px solid white;
+    height: 10%;
+}
