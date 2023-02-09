@@ -67,6 +67,11 @@ button {
     transform: ;
 }
 
+.high-button {
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
 
 /* ICON COLOUR DEFAULT */
 
