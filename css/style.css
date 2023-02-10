@@ -30,6 +30,7 @@ li {
 img {
     height: 150px;    
     
+    
 }
 
 main.wrapper {
@@ -47,6 +48,8 @@ button {
     overflow: hidden; 
 }
 
+
+
 /* ICON VAR */
 :root {
     --microphone: <i class="fa-solid fa-microphone"></i>;
@@ -63,15 +66,10 @@ button {
     --more: <i class="fa-solid fa-ellipsis"></i>;
 }
 
-.a {
-    transform: ;
-}
 
-.high-button {
-    position: absolute;
-    top: 5px;
-    left: 0;
-}
+
+
+
 
 /* ICON COLOUR DEFAULT */
 
@@ -79,7 +77,39 @@ i {
     color: white;
 }
 
+.high-right i{
+    font-size: 1.3rem;
+    position: relative;
+}
 
+.flex-icon {
+    display: flex;
+    height: 25px;
+    align-items: center;
+}
+
+.icon-right {
+    display: inline-block;
+    width: 120px;
+    height: 25px;
+    padding: 2px 2px 0 3px;
+    background-color:rgba(66, 64, 64, 0.5);    
+}
+
+.name-right {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background-color:rgba(66, 64, 64, 0.5);
+}
+
+.way {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
 
 /* MAIN SECTION PHOTO LAYOUT */
 
@@ -98,9 +128,6 @@ i {
     
 }
 
-.name, .icon {
-    /* display: none; */
-}
 
 /* MICROPHONE + PINCOPALLO */
 .set {
@@ -180,10 +207,18 @@ h3 {
 .middle-element {
     display: flex;
     justify-content: space-between;
-
     gap: 40px;
+    margin-top: 7px;
 }
 
+.middle-element h3 {
+    text-align: center;
+
+}
+
+.middle-element i {
+    padding-left: 7px;
+}
 
 /* SHIFT TO DOWN OF ANGLE UP */
 .fa-angle-up {
